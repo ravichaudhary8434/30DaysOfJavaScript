@@ -25,5 +25,11 @@ You can grab the Official Tutorial from [here](https://javascript30.com/)
 ### Array Methods
 ![Array Methods](GIFs/ArrayMethods.png)
 
+<hr>
+
+## Day5:
+### Image Gallery
+![Image Gallery](GIF's/ImageGallery.gif)
+
 
 
