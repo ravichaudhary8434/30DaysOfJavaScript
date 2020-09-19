@@ -29,7 +29,7 @@ You can grab the Official Tutorial from [here](https://javascript30.com/)
 
 ## Day5:
 ### Image Gallery
-![Image Gallery](GIF's/ImageGallery.gif)
+![Image Gallery](GIFs/ImageGallery.gif)
 
 
 
