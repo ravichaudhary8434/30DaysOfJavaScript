@@ -31,5 +31,11 @@ You can grab the Official Tutorial from [here](https://javascript30.com/)
 ### Image Gallery
 ![Image Gallery](GIFs/ImageGallery.gif)
 
+<hr>
+
+## Day6:
+### Ajax Type Ahead
+![Type Ahead](GIFs/TypeAhead.gif)
+
 
 
