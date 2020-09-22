@@ -37,5 +37,17 @@ You can grab the Official Tutorial from [here](https://javascript30.com/)
 ### Ajax Type Ahead
 ![Type Ahead](GIFs/TypeAhead.gif)
 
+<hr>
+
+## Day7:
+### Array Methods
+
+<hr>
+
+## Day8:
+### HTML5 Canvas
+![HTML5 Canvas](GIFs/Canvas.gif)
+
+
 
 
