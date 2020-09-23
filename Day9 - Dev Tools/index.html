@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Console Tricks!</title>
+</head>
+<body>
+
+  <p onClick="makeGreen()">×BREAK×DOWN×</p>
+
+  <script>
+    const dogs = [{ name: 'Snickers', age: 2 }, { name: 'hugo', age: 8 }];
+
+    let flag = false;
+
+    function makeGreen() {
+        flag = !flag;
+        const p = document.querySelector('p');
+        if(flag){
+            p.style.color = '#BADA55';
+            p.style.fontSize = '50px';
+        }else{
+            p.style.color = 'red';
+            p.style.fontSize = '100px';
+        }
+    }
+
+    // Regular
+    console.log("Hello");
+
+    // Interpolated
+    console.log('Hello I am Ravi %s ', '😎');
+
+    // Styled
+    console.log('%c This is a styled text', 'font-size: 100px;')
+
+    // warning!
+    console.warn('OHH NOO');
+
+    // Error :|
+    console.error("You made a wrong desicion");
+
+    // Info
+    console.info("I like music");
+
+    // Testing
+    console.assert(1 === 2, 'That is Wrong!');
+
+    // clearing
+    console.clear();
+
+    // Viewing DOM Elements
+    const p = document.querySelector("p");
+    console.log(p);
+    console.dir(p);
+
+    console.clear();
+    // Grouping together
+    dogs.forEach(dog => {
+        // console.group(`${dog.name}`);
+        console.groupCollapsed(`${dog.name}`);
+        console.log(`This is ${dog.name}`);
+        console.log(`${dog.name} is ${dog.age} years old `);
+        console.groupEnd(`${dog.name}`);
+    })
+
+    // counting
+    console.count('Ravi')
+    console.count('Abdus')
+    console.count('Ravi')
+    console.count('Abdus')
+    console.count('Abdus')
+    console.count('Ravi')
+    console.count('Abdus')
+
+    // timing
+    console.time('fetching data');
+    fetch('https://api.github.com/users/malhotraravi842')
+      .then(data => data.json())
+      .then(data => {
+        console.timeEnd('fetching data');
+        console.log(data);
+        // console.log(data.avatar_url);
+      });
+
+    // console.table(dogs);
+
+  </script>
+</body>
+</html>
