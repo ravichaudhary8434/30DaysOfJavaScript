@@ -48,6 +48,17 @@ You can grab the Official Tutorial from [here](https://javascript30.com/)
 ### HTML5 Canvas
 ![HTML5 Canvas](GIFs/Canvas.gif)
 
+<hr>
+
+## Day9:
+### Dev Tools
+
+<hr>
+
+## Day10:
+### Checkboxes
+![Checkboxes](GIFs/Checkboxes.gif)
+
 
 
 
