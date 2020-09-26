@@ -59,6 +59,14 @@ You can grab the Official Tutorial from [here](https://javascript30.com/)
 ### Checkboxes
 ![Checkboxes](GIFs/Checkboxes.gif)
 
+<hr>
+
+## Day11:
+### Video Player
+![Video Player](GIFs/Videoplayer.gif)
+
+
+
 
 
 
