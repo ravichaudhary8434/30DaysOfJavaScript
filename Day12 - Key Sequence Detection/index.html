@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Key Detection</title>
+  <style>
+      html {
+        background: #8E2DE2;  /* fallback for old browsers */
+        background: -webkit-linear-gradient(to right, #4A00E0, #8E2DE2);  /* Chrome 10-25, Safari 5.1-6 */
+        background: linear-gradient(to right, #4A00E0, #8E2DE2); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+      }
+  </style>
+</head>
+<body>
+
+</body>
+<script type="text/javascript" src="https://www.cornify.com/js/cornify.js"></script>
+<script>
+    const pressed = [];
+    const secretCode = 'ravi';
+
+
+    window.addEventListener('keyup', (e) => {
+        // console.log(e.key);
+        pressed.push(e.key);
+        pressed.splice(-secretCode.length -1, pressed.length - secretCode.length);
+        if(pressed.join('').includes(secretCode)){
+            cornify_add();
+        }
+        console.log(pressed);
+    });
+</script>
+</html>

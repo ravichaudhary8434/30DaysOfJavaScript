@@ -65,6 +65,12 @@ You can grab the Official Tutorial from [here](https://javascript30.com/)
 ### Video Player
 ![Video Player](GIFs/Videoplayer.gif)
 
+<hr>
+
+## Day 12:
+### Key Sequence Detection
+![Key Sequence Detection](GIFs/KeyDetection.gif)
+
 
 
 
