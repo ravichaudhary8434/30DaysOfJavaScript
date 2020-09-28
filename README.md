@@ -71,6 +71,12 @@ You can grab the Official Tutorial from [here](https://javascript30.com/)
 ### Key Sequence Detection
 ![Key Sequence Detection](GIFs/KeyDetection.gif)
 
+<hr>
+
+## Day 13:
+### Slide in on Scroll
+![Slide on Scroll](GIFs/SlideScroll.gif)
+
 
 
 
