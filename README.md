@@ -77,6 +77,12 @@ You can grab the Official Tutorial from [here](https://javascript30.com/)
 ### Slide in on Scroll
 ![Slide on Scroll](GIFs/SlideScroll.gif)
 
+<hr>
+
+## Day 15:
+### Local Storage
+![Local Storage](GIFs/LocalStorage.gif)
+
 
 
 
