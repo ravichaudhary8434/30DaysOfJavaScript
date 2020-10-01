@@ -83,6 +83,12 @@ You can grab the Official Tutorial from [here](https://javascript30.com/)
 ### Local Storage
 ![Local Storage](GIFs/LocalStorage.gif)
 
+<hr>
+
+## Day 16:
+### MouseMove Effect
+![Mouse Effect](GIFs/MouseEffect.gif)
+
 
 
 
