@@ -89,6 +89,12 @@ You can grab the Official Tutorial from [here](https://javascript30.com/)
 ### MouseMove Effect
 ![Mouse Effect](GIFs/MouseEffect.gif)
 
+<hr>
+
+## Day 17:
+### Sorting Brand name without Articles
+![Soring](GIFs/Soring.gif)
+
 
 
 
